@@ -9,7 +9,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "parcel ./index.html",
     "prebuild": "npx rimraf build",
-    "build-cmd": "del dist\\* && parcel build --no-optimize --public-url ./ ./index.html"
+    "build-cmd": "del docs\\* && parcel build  --public-url ./ ./index.html --dist-dir docs",
+    "build-bash": "rm -rf docs && parcel build  --public-url ./ ./index.html --dist-dir docs"
   },
   "author": "Andrew Jerrison",
   "license": "MIT",
