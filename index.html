@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>RSE Discoverer</title>
+    
+    <script type="module" src="./index.js"></script>
+    
+    <link rel="stylesheet" href="static/css/rsediscoverer.scss"></style>
+  </head>
+
+  <body>
+    
+    <div class="container vh-100">
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+        <a class="navbar-brand lnkHome" href="#">RSE Discoverer</a>
+        
+        
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav me-auto">
+            <a class="nav-link active lnkHome" aria-current="page" href="#">Home</a>
+            
+          </div>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" autocorrect="off" autocomplete="off" autocapitalize="off"  aria-label="Search" id="txtSearch">
+            <button class="btn btn-outline-success" type="button" id="btnSearch">Search</button>
+          </form>
+        </div>
+        
+    </nav>
+    
+    <div class="row">
+      <div class="col-12">
+        <span>Click to highlight, double-click to drill down</span>
+      </div>
+    </div>
+    
+    <div class="row h-75">
+      <div class="col-12">
+      <div id="rsenetwork"></div>
+      </div>    
+    </div>  
+    
+    <div class="row">
+      <div class="col-12">
+        <span>&copy; Research IT 2022</span>
+      </div>
+    </div>
+
+    </div>
+  </body>
+</html>

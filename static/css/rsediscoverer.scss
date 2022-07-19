@@ -1,0 +1,16 @@
+@import "../../node_modules/bootstrap/scss/bootstrap";
+@import "../../node_modules/@tarekraafat/autocomplete.js/dist/css/autoComplete.css";
+
+  html, body{ 
+    min-height: 100vh;
+    overflow: auto;
+  }
+
+  #rsenetwork {
+    
+    width:100%;
+    height:90%;
+    overflow: hidden;
+    display: block;
+    border: 1px solid blueviolet;
+  }
